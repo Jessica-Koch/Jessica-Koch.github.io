@@ -1,5 +1,51 @@
-body {
+html, body, #root {
+  height: 100%;
+  width: 100%;
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    padding: 0;
+  font-family: 'Ledger', serif;
+
+  font-weight: 300;
+  background-color: #273442;
+  color: #FEF9F7;
 }
+h1, h2, h3, h4 {
+    font-family: 'Nixie One', cursive;
+}
+ul {
+    list-style: none;
+}
+
+
+/* Overrides */
+.list-group-item {
+    background-color: inherit;
+}
+/*deep colors*/
+/*#201A32*/
+/*#5B4959*/
+/*#3D445D*/
+/*#454054*/
+/*#3C415A*/
+/*#273442*/
+/*#544E5F*/
+/*#2C2836*/
+
+/*Mid accent*/
+/*#997481*/
+/*#99679E*/
+/*#A36570*/
+/*#A0675D*/
+/*#CB7B5F*/
+
+/*bright accents*/
+/*#FDA381*/
+/*#F8717D*/
+/*#EC8298*/
+
+/*lightest accents: */
+   /*#E3D4DC*/
+   /*#E0D3CD*/
+   /*#FEF9F7*/
+   /*#FDF9D8*/
+https://dribbble.com/shots/3514472-Story-Backers
