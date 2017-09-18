@@ -1,6 +1,7 @@
 {
-  "name": "jess",
+  "name": "myAdventure",
   "version": "0.1.0",
+  "homepage": "https://Jessica-Koch.github.io/myAdventure",
   "private": true,
   "dependencies": {
     "axios": "^0.16.2",
@@ -16,6 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
