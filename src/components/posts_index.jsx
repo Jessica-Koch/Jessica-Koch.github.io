@@ -6,7 +6,6 @@ import {Link} from 'react-router-dom';
 
 class PostsIndex extends Component {
     componentDidMount() {
-        console.log(`props in post index component: ${this.props.fetchPosts}`)
         this.props.fetchPosts();
     }
 
@@ -14,14 +13,16 @@ class PostsIndex extends Component {
         return _.map(this.props.posts, post => {
             return (
                 <li className="list-group-item" key={post.id}>
-                    {post.title}
+                    <Link to={`/posts/${post.id}`}>
+
+                        {post.title}
+                    </Link>
                 </li>
             )
         })
     }
 
     render() {
-        console.log(this.props.posts)
         return (
             <div className="container">
                 <div className="text-xs-right text-right">
