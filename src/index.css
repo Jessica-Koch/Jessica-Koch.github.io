@@ -25,6 +25,23 @@ ul {
 form a {
     margin-left: 5px;
 }
+
+#app {
+  height: 100%;
+}
+.landingPage {
+    background: url('assets/starry-night-1081993.jpg');
+    background-size: cover;
+
+    height: 100%;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 110px;
+
+}
 /*deep colors*/
 /*#201A32*/
 /*#5B4959*/

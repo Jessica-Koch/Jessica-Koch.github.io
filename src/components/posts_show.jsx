@@ -20,7 +20,7 @@ class PostsShow extends Component {
             return <div>Loading...</div>
         }
         return (
-            <div>
+            <div id="app">
                 <Link to="/">Back to Index</Link>
                 <h3>{post.title}</h3>
                 <h6>Categories: {post.categories}</h6>
