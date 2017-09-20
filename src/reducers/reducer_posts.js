@@ -1,8 +1,10 @@
-import {FETCH_POSTS, FETCH_POST} from '../actions';
+import {FETCH_POSTS, FETCH_POST, DELETE_POST} from '../actions';
 import _ from 'lodash';
 
 export default function(state = {}, action) {
     switch (action.type) {
+        case DELETE_POST:
+            return _.omit(state, action.payload) // looks at state to see if there is a post Id and return a new obj without that particular object
         case FETCH_POST:
             return {...state, [action.payload.data.id]: action.payload.data};
         case FETCH_POSTS:
