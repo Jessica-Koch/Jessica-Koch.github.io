@@ -6,7 +6,7 @@ import {createStore, applyMiddleware} from 'redux';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import reducers from  './reducers'
 import promise from 'redux-promise';
-import LandingPage from './components/landing_page'
+import LandingPage from './components/landing_page/landing_page'
 import PostsIndex from './components/posts_index'
 import PostsNew from './components/posts_new';
 import PostsShow from './components/posts_show'

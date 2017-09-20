@@ -1,0 +1,72 @@
+/*@font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  /*src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */*/
+       /*url('webfont.woff2') format('woff2'), /* Super Modern Browsers */*/
+       /*url('webfont.woff') format('woff'), /* Pretty Modern Browsers */*/
+       /*url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */*/
+       /*url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */*/
+/*}*/
+
+@font-face {
+  font-family: 'Gloss and Bloom';
+  src: url('../../../src/assets/Gloss_And_Bloom.ttf');
+}
+@font-face {
+  font-family: 'Vincentia';
+  src: url('../../../src/assets/Vincentia.otf');
+}
+
+.landingPage {
+    background: url('../../../src/assets/starry-night-1081993.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 110px;
+    font-family: 'Gloss and Bloom';
+}
+.heading {
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.enter {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 15px;
+}
+/*deep colors*/
+/*#201A32*/
+/*#5B4959*/
+/*#3D445D*/
+/*#454054*/
+/*#3C415A*/
+/*#273442*/
+/*#544E5F*/
+/*#2C2836*/
+
+/*Mid accent*/
+/*#997481*/
+/*#99679E*/
+/*#A36570*/
+/*#A0675D*/
+/*#CB7B5F*/
+
+/*bright accents*/
+/*#FDA381*/
+/*#F8717D*/
+/*#EC8298*/
+
+/*lightest accents: */
+   /*#E3D4DC*/
+   /*#E0D3CD*/
+   /*#FEF9F7*/
+   /*#FDF9D8*/
+/*https://dribbble.com/shots/3514472-Story-Backers*/
